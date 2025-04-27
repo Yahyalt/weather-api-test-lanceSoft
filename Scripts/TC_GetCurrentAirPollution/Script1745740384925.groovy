@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.testobject.ResponseObject
+
+
+// 1) Send the API request
+ResponseObject response = WS.sendRequest(findTestObject(
+	'Postman/current_air_pollution_in_jakarta',
+	[
+		('apiKey'): GlobalVariable.apiKey,
+		('lat_jaksel')   : GlobalVariable.lat_jaksel,
+		('lon_jaksel')   : GlobalVariable.lon_jaksel
+	]
+))
+
+// —— Assert #1: HTTP status & non-empty body ——
+WS.verifyResponseStatusCode(response, 200)
+WS.verifyNotEqual(WS.getResponseText(response).trim(), '', 'Response body should not be empty')
