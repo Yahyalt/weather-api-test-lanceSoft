@@ -26,7 +26,8 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://api.openweathermap.org/data/2.5/air_pollution</restUrl>
+   <restUrl>http://api.openweathermap.org/data/2.5/air_pollution?lat=${GlobalVariable.lat_jaksel}&amp;lon=${GlobalVariable.lon_jaksel}&amp;appid=${GlobalVariable.apiKey}&#xd;
+</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -35,27 +36,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>-6.266</defaultValue>
-      <description></description>
-      <id>ea9bb3d0-e928-441b-af8f-4f283e1e2b67</id>
-      <masked>false</masked>
-      <name>lat_jaksel</name>
-   </variables>
-   <variables>
-      <defaultValue>106.8135</defaultValue>
-      <description></description>
-      <id>19c21b4e-cf22-4868-a406-6a56492f3a7f</id>
-      <masked>false</masked>
-      <name>lon_jaksel</name>
-   </variables>
-   <variables>
-      <defaultValue>'68cf65b2e2fe6aed98fc6847a87ebb21'</defaultValue>
-      <description></description>
-      <id>836b6aec-9ebb-4cb6-b0f1-b795b61c7172</id>
-      <masked>false</masked>
-      <name>apiKey</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
