@@ -33,3 +33,12 @@ ResponseObject response = WS.sendRequest(findTestObject(
 // —— Assert #1: HTTP status & non-empty body ——
 WS.verifyResponseStatusCode(response, 200)
 WS.verifyNotEqual(WS.getResponseText(response).trim(), '', 'Response body should not be empty')
+
+
+// print out what Katalon thinks your key is
+println "API key = '${GlobalVariable.apiKey}'"
+
+
+
+// print the exact URL that was called
+println "Called URL: " + response.getUrl()
