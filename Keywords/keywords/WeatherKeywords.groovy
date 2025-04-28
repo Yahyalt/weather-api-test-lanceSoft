@@ -18,10 +18,7 @@ class WeatherKeywords {
 	@Keyword
 	def static void getCurrentAirPollution(String lat, String lon, String apiKey, int expectedStatus) {
 		ResponseObject resp = WS.sendRequest(
-				findTestObject(
-				'Postman/current_air_pollution_in_jakarta',
-				[
-
+				findTestObject('Postman/current_air_pollution_in_jakarta', [
 					('lat_jaksel'): lat,
 					('lon_jaksel'): lon,
 					('apiKey')    : apiKey
