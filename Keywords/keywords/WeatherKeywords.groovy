@@ -102,7 +102,7 @@ class WeatherKeywords {
 					.collect { it.dt_txt[0..9] }    // "2025-04-28 12:00:00" → "2025-04-28"
 					.unique()
 
-			// 5) Assert exactly 5 distinct days
+			// 5) Assert exactly 6 distinct days
 			WS.verifyEqual(distinctDates.size(), 6)
 
 			// 6) For each of those dates, assert there's at least one entry
@@ -114,3 +114,32 @@ class WeatherKeywords {
 			// 7) (Optional) spot-check the very first entry
 			WS.verifyElementPropertyValue(resp, 'list[0].main.temp',
 					WS.getElementPropertyValue(resp, 'list[0].main.temp'))
+		}
+		else  if (expectedStatus == 400) {
+			// always assert the code
+			WS.verifyElementPropertyValue(resp, 'cod', '400')
+
+			// now decide which message to expect
+			boolean latIsNum = (lat ==~ /^-?\d+(\.\d+)?$/)
+			boolean lonIsNum = (lon ==~ /^-?\d+(\.\d+)?$/)
+
+			if (!latIsNum) {
+				// any non-numeric latitude (including empty) → wrong latitude
+				WS.verifyElementPropertyValue(resp, 'message', 'wrong latitude')
+			}
+			else if (!lonIsNum) {
+				// any non-numeric longitude (including empty) → wrong longitude
+				WS.verifyElementPropertyValue(resp, 'message', 'wrong longitude')
+			}
+			else {
+				// both numeric but still a 400 from the service
+				WS.verifyElementPropertyValue(resp, 'message', 'Nothing to geocode')
+			}
+		} else if (expectedStatus == 401) {
+			// 401 Unauthorized
+			WS.verifyElementPropertyValue(resp, 'cod', 401)
+			WS.verifyElementPropertyValue(resp, 'message',
+					'Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.')
+		}
+	}
+}
