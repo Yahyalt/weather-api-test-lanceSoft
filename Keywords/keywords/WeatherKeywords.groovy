@@ -22,17 +22,44 @@ class WeatherKeywords {
 					('lat_jaksel'): lat,
 					('lon_jaksel'): lon,
 					('apiKey')    : apiKey
-				]))
+				])
+				)
 
+		// 1) Verify HTTP status
+		WS.verifyResponseStatusCode(resp, expectedStatus)
 
-		String body = resp.getResponseBodyContent()
-		KeywordUtil.logInfo("🛈 Response body:\n" + body)
+		if (expectedStatus == 200) {
+			// 2) Non-empty body
+			WS.verifyNotEqual(resp.getResponseBodyContent().trim(), '')
 
+			// 3) “list” array has at least one element
+			int count = WS.getElementsCount(resp, 'list')
+			WS.verifyGreaterThan(count, 0)
 
+			// 4) Spot-check a field inside the first element
+			WS.verifyElementPropertyValue(resp, 'list[0].main.aqi', 1)
+		} else if (expectedStatus == 400) {
+			WS.verifyElementPropertyValue(resp, 'cod', '400')
 
+			boolean latIsNum = (lat ==~ /^-?\d+(\.\d+)?$/)
+			boolean lonIsNum = (lon ==~ /^-?\d+(\.\d+)?$/)
 
-
-
+			if (!latIsNum) {
+				WS.verifyElementPropertyValue(resp, 'message', 'wrong latitude')
+			}
+			else if (!lonIsNum) {
+				WS.verifyElementPropertyValue(resp, 'message', 'wrong longitude')
+			}
+		} else if (expectedStatus == 401) {
+			// “Invalid API key” error
+			WS.verifyElementPropertyValue(resp, 'cod', 401)
+			WS.verifyElementPropertyValue(
+					resp,
+					'message',
+					'Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.'
+					)
+		}
+	}
 
 		WS.verifyResponseStatusCode(resp, expectedStatus)
 		WS.verifyNotEqual(
