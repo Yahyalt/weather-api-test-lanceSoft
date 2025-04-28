@@ -4,6 +4,7 @@ import com.kms.katalon.core.annotation.Keyword
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.testobject.ResponseObject
+import groovy.json.JsonSlurper
 
 class WeatherKeywords {
 
@@ -29,38 +30,91 @@ class WeatherKeywords {
 		WS.verifyResponseStatusCode(resp, expectedStatus)
 
 		if (expectedStatus == 200) {
-			// 2) Non-empty body
+			// 200 OK
 			WS.verifyNotEqual(resp.getResponseBodyContent().trim(), '')
-
-			// 3) “list” array has at least one element
 			int count = WS.getElementsCount(resp, 'list')
 			WS.verifyGreaterThan(count, 0)
-
-			// 4) Spot-check a field inside the first element
 			WS.verifyElementPropertyValue(resp, 'list[0].main.aqi', 1)
 		} else if (expectedStatus == 400) {
-			WS.verifyElementPropertyValue(resp, 'cod', '400')
+    // always assert the code
+    WS.verifyElementPropertyValue(resp, 'cod', '400')
 
-			boolean latIsNum = (lat ==~ /^-?\d+(\.\d+)?$/)
-			boolean lonIsNum = (lon ==~ /^-?\d+(\.\d+)?$/)
+    // now decide which message to expect
+    boolean latIsNum = (lat ==~ /^-?\d+(\.\d+)?$/)
+    boolean lonIsNum = (lon ==~ /^-?\d+(\.\d+)?$/)
 
-			if (!latIsNum) {
-				WS.verifyElementPropertyValue(resp, 'message', 'wrong latitude')
-			}
-			else if (!lonIsNum) {
-				WS.verifyElementPropertyValue(resp, 'message', 'wrong longitude')
-			}
+    if (!latIsNum) {
+        // any non-numeric latitude (including empty) → wrong latitude
+        WS.verifyElementPropertyValue(resp, 'message', 'wrong latitude')
+    }
+    else if (!lonIsNum) {
+        // any non-numeric longitude (including empty) → wrong longitude
+        WS.verifyElementPropertyValue(resp, 'message', 'wrong longitude')
+    }
+    else {
+        // both numeric but still a 400 from the service
+        WS.verifyElementPropertyValue(resp, 'message', 'Nothing to geocode')
+    }
+
 		} else if (expectedStatus == 401) {
-			// “Invalid API key” error
+			// 401 Unauthorized
 			WS.verifyElementPropertyValue(resp, 'cod', 401)
-			WS.verifyElementPropertyValue(
-					resp,
-					'message',
-					'Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.'
-					)
+			WS.verifyElementPropertyValue(resp, 'message',
+					'Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.')
 		}
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+
+	@Keyword
+	def static void getFiveDayForecast(String lat, String lon, String apiKey, int expectedStatus) {
+		ResponseObject resp = WS.sendRequest(
+				findTestObject('Postman/5_day_weather_jakarta', [
+					('lat_jaksel'): lat,
+					('lon_jaksel'): lon,
+					('apiKey')    : apiKey
+				])
 				)
+
+		// 1) status
+		WS.verifyResponseStatusCode(resp, expectedStatus)
+
+		//		if (expectedStatus == 200) {
+		//			// 2) body not empty
+		//			WS.verifyNotEqual(resp.getResponseBodyContent().trim(), '')
+		//
+		//			// 3) parse JSON
+		//			def payload = new JsonSlurper().parseText(resp.getResponseBodyContent())
+		//
+		//			// 4) pull off just the date portion of each dt_txt, then unique()
+		//			def dates = payload.list
+		//					.collect { it.dt_txt[0..9] }      // dt_txt = "2025-04-28 12:00:00" → "2025-04-28"
+		//					.unique()
+		//
+		//			// 5) exactly 5 distinct dates
+		//			WS.verifyEqual(dates.size(), 5, 'There should be exactly 5 distinct calendar dates in the 5-day forecast')
+		//
+		//			// 6) for each date, assert there is at least one entry
+		//			dates.each { d ->
+		//				def countForDay = payload.list.count { it.dt_txt.startsWith(d) }
+		//				WS.verifyGreaterThan(countForDay, 0, "Should have at least one forecast entry for $d")
+		//			}
+		//
+		//			// 7) spot check: first entry has a numeric temp
+		//			WS.verifyElementPropertyValue(resp, 'list[0].main.temp',
+		//					WS.getElementPropertyValue(resp, 'list[0].main.temp'))
+		//		} else {
+		// …your negative‐case checks here…
 	}
 }
+
