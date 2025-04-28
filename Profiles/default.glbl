@@ -13,7 +13,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>-62.266</initValue>
+      <initValue>-6.266</initValue>
       <name>lat_jaksel</name>
       <protected>false</protected>
       <valueType>NUMBER</valueType>
