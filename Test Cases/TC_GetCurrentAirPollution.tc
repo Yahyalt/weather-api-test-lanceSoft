@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>12930364-cbd8-47a3-b843-5bd34242c482</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d610c77-dca6-4f3f-a076-2bb0e825e02d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7da4f2c1-ab46-4b58-8f95-2e7797beeb11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82faf8cd-0f01-4781-a544-ec79bb4d6652</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'68cf65b2e2fe6aed98fc6847a87ebb21'</defaultValue>
+      <description></description>
+      <id>1d610c77-dca6-4f3f-a076-2bb0e825e02d</id>
+      <masked>false</masked>
+      <name>apiKey</name>
+   </variable>
+   <variable>
+      <defaultValue>-62.266</defaultValue>
+      <description></description>
+      <id>7da4f2c1-ab46-4b58-8f95-2e7797beeb11</id>
+      <masked>false</masked>
+      <name>lat_jaksel</name>
+   </variable>
+   <variable>
+      <defaultValue>106.8135</defaultValue>
+      <description></description>
+      <id>82faf8cd-0f01-4781-a544-ec79bb4d6652</id>
+      <masked>false</masked>
+      <name>lon_jaksel</name>
+   </variable>
 </TestCaseEntity>
