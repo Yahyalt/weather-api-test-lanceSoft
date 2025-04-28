@@ -85,35 +85,32 @@ class WeatherKeywords {
 				])
 				)
 
-		// 1) status
+
+
+		// 1) Verify HTTP status
 		WS.verifyResponseStatusCode(resp, expectedStatus)
 
-		//		if (expectedStatus == 200) {
-		//			// 2) body not empty
-		//			WS.verifyNotEqual(resp.getResponseBodyContent().trim(), '')
-		//
-		//			// 3) parse JSON
-		//			def payload = new JsonSlurper().parseText(resp.getResponseBodyContent())
-		//
-		//			// 4) pull off just the date portion of each dt_txt, then unique()
-		//			def dates = payload.list
-		//					.collect { it.dt_txt[0..9] }      // dt_txt = "2025-04-28 12:00:00" → "2025-04-28"
-		//					.unique()
-		//
-		//			// 5) exactly 5 distinct dates
-		//			WS.verifyEqual(dates.size(), 5, 'There should be exactly 5 distinct calendar dates in the 5-day forecast')
-		//
-		//			// 6) for each date, assert there is at least one entry
-		//			dates.each { d ->
-		//				def countForDay = payload.list.count { it.dt_txt.startsWith(d) }
-		//				WS.verifyGreaterThan(countForDay, 0, "Should have at least one forecast entry for $d")
-		//			}
-		//
-		//			// 7) spot check: first entry has a numeric temp
-		//			WS.verifyElementPropertyValue(resp, 'list[0].main.temp',
-		//					WS.getElementPropertyValue(resp, 'list[0].main.temp'))
-		//		} else {
-		// …your negative‐case checks here…
-	}
-}
+		if (expectedStatus == 200) {
+			// 2) Non-empty body
+			WS.verifyNotEqual(resp.getResponseBodyContent().trim(), '')
 
+			// 3) Parse the JSON
+			def payload = new JsonSlurper().parseText(resp.getResponseBodyContent())
+
+			// 4) Extract the date part (YYYY-MM-DD) from each dt_txt, then unique()
+			def distinctDates = payload.list
+					.collect { it.dt_txt[0..9] }    // "2025-04-28 12:00:00" → "2025-04-28"
+					.unique()
+
+			// 5) Assert exactly 5 distinct days
+			WS.verifyEqual(distinctDates.size(), 6)
+
+			// 6) For each of those dates, assert there's at least one entry
+			distinctDates.each { d ->
+				def countForDay = payload.list.count { it.dt_txt.startsWith(d) }
+				WS.verifyGreaterThan(countForDay, 0)
+			}
+
+			// 7) (Optional) spot-check the very first entry
+			WS.verifyElementPropertyValue(resp, 'list[0].main.temp',
+					WS.getElementPropertyValue(resp, 'list[0].main.temp'))
