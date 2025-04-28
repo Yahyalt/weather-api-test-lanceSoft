@@ -15,7 +15,7 @@ class WeatherKeywords {
 	 * @param expectedStatus   the HTTP status you expect (e.g. 200)
 	 */
 	@Keyword
-	def static void getCurrentAirPollution(double lat, double lon, String apiKey, int expectedStatus) {
+	def static void getCurrentAirPollution(String lat, String lon, String apiKey, int expectedStatus) {
 		ResponseObject resp = WS.sendRequest(
 				findTestObject(
 				'Postman/current_air_pollution_in_jakarta',
