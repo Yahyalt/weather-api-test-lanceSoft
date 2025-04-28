@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WeatherSuite,,,,28-04-2025 18:59:03,28-04-2025 18:59:07,3.685s,PASSED
+,,,,,,,
+Test Cases/TC_5day_weather_jakarta,,,,28-04-2025 18:59:04,28-04-2025 18:59:06,2.260s,PASSED
+"WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)",,,,28-04-2025 18:59:04,28-04-2025 18:59:06,1.527s,PASSED
+"WeatherKeywords.getFiveDayForecast(""abc"", lon_jaksel.toString(), apiKey, 400)",,,,28-04-2025 18:59:06,28-04-2025 18:59:06,0.129s,PASSED
+"WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), ""xyz"", apiKey, 400)",,,,28-04-2025 18:59:06,28-04-2025 18:59:06,0.133s,PASSED
+"WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), ""bad_key"", 401)",,,,28-04-2025 18:59:06,28-04-2025 18:59:06,0.126s,PASSED
+,,,,,,,
+Test Cases/TC_GetCurrentAirPollution,,,,28-04-2025 18:59:06,28-04-2025 18:59:07,0.683s,PASSED
+"DATA BINDING - {""(Default) apiKe..."":""68cf65b2e2fe6aed98fc6847a87ebb21"",""(Default) lon_j..."":""106.8135"",""(Default) lat_j..."":""-62.266""}",,,,,,,
+"WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)",,,,28-04-2025 18:59:07,28-04-2025 18:59:07,0.295s,PASSED
+"WeatherKeywords.getCurrentAirPollution(""abc"", lon_jaksel.toString(), apiKey, 400)",,,,28-04-2025 18:59:07,28-04-2025 18:59:07,0.107s,PASSED
+"WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), ""xyz"", apiKey, 400)",,,,28-04-2025 18:59:07,28-04-2025 18:59:07,0.087s,PASSED
+"WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), ""bad_key"", 401)",,,,28-04-2025 18:59:07,28-04-2025 18:59:07,0.095s,PASSED

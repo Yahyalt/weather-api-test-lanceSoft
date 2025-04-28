@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-28T11:59:03.959398Z</date>
+  <millis>1745841543959</millis>
+  <nanos>398000</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/WeatherSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">WeatherSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/WeatherSuite</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.007021600Z</date>
+  <millis>1745841544007</millis>
+  <nanos>21600</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Yahya Hafidz</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Yahya Hafidz</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.007021600Z</date>
+  <millis>1745841544007</millis>
+  <nanos>21600</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = weather-api-test-lanceSoft</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">weather-api-test-lanceSoft</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.009024700Z</date>
+  <millis>1745841544009</millis>
+  <nanos>24700</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = LENOVO - LAPTOP-6D1EASRA</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">LENOVO - LAPTOP-6D1EASRA</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.009024700Z</date>
+  <millis>1745841544009</millis>
+  <nanos>24700</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.010021800Z</date>
+  <millis>1745841544010</millis>
+  <nanos>21800</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.48.149</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.48.149</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.011019700Z</date>
+  <millis>1745841544011</millis>
+  <nanos>19700</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.2.0.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.2.0.0</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.646637900Z</date>
+  <millis>1745841544646</millis>
+  <nanos>637900</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_5day_weather_jakarta</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/TC_5day_weather_jakarta</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TC_5day_weather_jakarta</property>
+  <property name="source">C:\Users\LENOVO\git\weather-api-test-lanceSoft\Test Cases\TC_5day_weather_jakarta.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:04.985661500Z</date>
+  <millis>1745841544985</millis>
+  <nanos>661500</nanos>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">5</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.176469500Z</date>
+  <millis>1745841546176</millis>
+  <nanos>469500</nanos>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">23f4f21c-9f0f-4a5d-9685-bdeac21890da</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.247896600Z</date>
+  <millis>1745841546247</millis>
+  <nanos>896600</nanos>
+  <sequence>13</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.263707800Z</date>
+  <millis>1745841546263</millis>
+  <nanos>707800</nanos>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.292710Z</date>
+  <millis>1745841546292</millis>
+  <nanos>710000</nanos>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;{&amp;quot;cod&amp;quot;:&amp;quot;200&amp;quot;,&amp;quot;message&amp;quot;:0,&amp;quot;cnt&amp;quot;:40,&amp;quot;list&amp;quot;:[{&amp;quot;dt&amp;quot;:1745841600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.86,&amp;quot;feels_like&amp;quot;:303.99,&amp;quot;temp_min&amp;quot;:301.86,&amp;quot;temp_max&amp;quot;:304.55,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:62,&amp;quot;temp_kf&amp;quot;:-2.69},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:40},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.14,&amp;quot;deg&amp;quot;:354,&amp;quot;gust&amp;quot;:2.22},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.32,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.3},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-28 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745852400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.39,&amp;quot;feels_like&amp;quot;:305.83,&amp;quot;temp_min&amp;quot;:302.39,&amp;quot;temp_max&amp;quot;:303.46,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:67,&amp;quot;temp_kf&amp;quot;:-1.07},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:50},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.32,&amp;quot;deg&amp;quot;:287,&amp;quot;gust&amp;quot;:1.84},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:1.9},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-28 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745863200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.83,&amp;quot;feels_like&amp;quot;:308.35,&amp;quot;temp_min&amp;quot;:302.83,&amp;quot;temp_max&amp;quot;:303.31,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:74,&amp;quot;temp_kf&amp;quot;:-0.48},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:501,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;moderate rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:41},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.57,&amp;quot;deg&amp;quot;:136,&amp;quot;gust&amp;quot;:0.61},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:5.92},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-28 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745874000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.44,&amp;quot;feels_like&amp;quot;:310.44,&amp;quot;temp_min&amp;quot;:303.44,&amp;quot;temp_max&amp;quot;:303.44,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:85,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:6},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.34,&amp;quot;deg&amp;quot;:104,&amp;quot;gust&amp;quot;:1.64},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.53,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.33},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-28 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745884800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.42,&amp;quot;feels_like&amp;quot;:306.46,&amp;quot;temp_min&amp;quot;:301.42,&amp;quot;temp_max&amp;quot;:301.42,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:83,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:800,&amp;quot;main&amp;quot;:&amp;quot;Clear&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;clear sky&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;01d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:5},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.5,&amp;quot;deg&amp;quot;:102,&amp;quot;gust&amp;quot;:1.85},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.27,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745895600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:305.33,&amp;quot;feels_like&amp;quot;:312.29,&amp;quot;temp_min&amp;quot;:305.33,&amp;quot;temp_max&amp;quot;:305.33,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:65,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:8},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.78,&amp;quot;deg&amp;quot;:53,&amp;quot;gust&amp;quot;:1.81},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.21,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.14},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745906400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.46,&amp;quot;feels_like&amp;quot;:313.46,&amp;quot;temp_min&amp;quot;:306.46,&amp;quot;temp_max&amp;quot;:306.46,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:62,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:27},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.57,&amp;quot;deg&amp;quot;:7,&amp;quot;gust&amp;quot;:2.73},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.98,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:1.41},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745917200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.98,&amp;quot;feels_like&amp;quot;:306.46,&amp;quot;temp_min&amp;quot;:302.98,&amp;quot;temp_max&amp;quot;:302.98,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:64,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.23,&amp;quot;deg&amp;quot;:8,&amp;quot;gust&amp;quot;:2.55},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.9,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.9},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745928000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.36,&amp;quot;feels_like&amp;quot;:303.95,&amp;quot;temp_min&amp;quot;:301.36,&amp;quot;temp_max&amp;quot;:301.36,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:68,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.83,&amp;quot;deg&amp;quot;:23,&amp;quot;gust&amp;quot;:2.17},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.76,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.49},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745938800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.08,&amp;quot;feels_like&amp;quot;:303.3,&amp;quot;temp_min&amp;quot;:301.08,&amp;quot;temp_max&amp;quot;:301.08,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:67,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.23,&amp;quot;deg&amp;quot;:72,&amp;quot;gust&amp;quot;:1.47},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.28,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.29},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745949600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.05,&amp;quot;feels_like&amp;quot;:301.92,&amp;quot;temp_min&amp;quot;:300.05,&amp;quot;temp_max&amp;quot;:300.05,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:71,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.5,&amp;quot;deg&amp;quot;:113,&amp;quot;gust&amp;quot;:1.68},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.1,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745960400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:299.38,&amp;quot;feels_like&amp;quot;:299.38,&amp;quot;temp_min&amp;quot;:299.38,&amp;quot;temp_max&amp;quot;:299.38,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:75,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.45,&amp;quot;deg&amp;quot;:114,&amp;quot;gust&amp;quot;:1.79},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-29 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745971200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:299.47,&amp;quot;feels_like&amp;quot;:299.47,&amp;quot;temp_min&amp;quot;:299.47,&amp;quot;temp_max&amp;quot;:299.47,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:75,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.54,&amp;quot;deg&amp;quot;:111,&amp;quot;gust&amp;quot;:2.02},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745982000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.18,&amp;quot;feels_like&amp;quot;:305.65,&amp;quot;temp_min&amp;quot;:303.18,&amp;quot;temp_max&amp;quot;:303.18,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:58,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:99},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.87,&amp;quot;deg&amp;quot;:69,&amp;quot;gust&amp;quot;:1.85},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1745992800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:305.24,&amp;quot;feels_like&amp;quot;:308.44,&amp;quot;temp_min&amp;quot;:305.24,&amp;quot;temp_max&amp;quot;:305.24,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:53,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:87},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.37,&amp;quot;deg&amp;quot;:18,&amp;quot;gust&amp;quot;:2.13},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746003600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.03,&amp;quot;feels_like&amp;quot;:306.35,&amp;quot;temp_min&amp;quot;:303.03,&amp;quot;temp_max&amp;quot;:303.03,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:63,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:95},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:4.34,&amp;quot;deg&amp;quot;:25,&amp;quot;gust&amp;quot;:3.63},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.38,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.12},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746014400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.81,&amp;quot;feels_like&amp;quot;:305.15,&amp;quot;temp_min&amp;quot;:301.81,&amp;quot;temp_max&amp;quot;:301.81,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:70,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:97},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.77,&amp;quot;deg&amp;quot;:32,&amp;quot;gust&amp;quot;:2.82},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.62,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:1.6},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746025200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.16,&amp;quot;feels_like&amp;quot;:304.11,&amp;quot;temp_min&amp;quot;:301.16,&amp;quot;temp_max&amp;quot;:301.16,&amp;quot;pressure&amp;quot;:1011,&amp;quot;sea_level&amp;quot;:1011,&amp;quot;grnd_level&amp;quot;:1008,&amp;quot;humidity&amp;quot;:72,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.09,&amp;quot;deg&amp;quot;:92,&amp;quot;gust&amp;quot;:2.56},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:1.45},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746036000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.13,&amp;quot;feels_like&amp;quot;:302.48,&amp;quot;temp_min&amp;quot;:300.13,&amp;quot;temp_max&amp;quot;:300.13,&amp;quot;pressure&amp;quot;:1011,&amp;quot;sea_level&amp;quot;:1011,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:76,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.85,&amp;quot;deg&amp;quot;:109,&amp;quot;gust&amp;quot;:2.46},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.28},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746046800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:299.59,&amp;quot;feels_like&amp;quot;:299.59,&amp;quot;temp_min&amp;quot;:299.59,&amp;quot;temp_max&amp;quot;:299.59,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:78,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.55,&amp;quot;deg&amp;quot;:114,&amp;quot;gust&amp;quot;:2.11},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-04-30 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746057600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:299.7,&amp;quot;feels_like&amp;quot;:299.7,&amp;quot;temp_min&amp;quot;:299.7,&amp;quot;temp_max&amp;quot;:299.7,&amp;quot;pressure&amp;quot;:1011,&amp;quot;sea_level&amp;quot;:1011,&amp;quot;grnd_level&amp;quot;:1008,&amp;quot;humidity&amp;quot;:76,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.33,&amp;quot;deg&amp;quot;:126,&amp;quot;gust&amp;quot;:1.65},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746068400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.79,&amp;quot;feels_like&amp;quot;:307.02,&amp;quot;temp_min&amp;quot;:303.79,&amp;quot;temp_max&amp;quot;:303.79,&amp;quot;pressure&amp;quot;:1011,&amp;quot;sea_level&amp;quot;:1011,&amp;quot;grnd_level&amp;quot;:1008,&amp;quot;humidity&amp;quot;:59,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:62},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.99,&amp;quot;deg&amp;quot;:79,&amp;quot;gust&amp;quot;:0.73},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746079200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.23,&amp;quot;feels_like&amp;quot;:309.6,&amp;quot;temp_min&amp;quot;:306.23,&amp;quot;temp_max&amp;quot;:306.23,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:50,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:41},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.22,&amp;quot;deg&amp;quot;:348,&amp;quot;gust&amp;quot;:2.21},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746090000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.22,&amp;quot;feels_like&amp;quot;:307.65,&amp;quot;temp_min&amp;quot;:304.22,&amp;quot;temp_max&amp;quot;:304.22,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:58,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:77},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:4.68,&amp;quot;deg&amp;quot;:3,&amp;quot;gust&amp;quot;:3.74},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.42,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.27},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746100800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.26,&amp;quot;feels_like&amp;quot;:306.12,&amp;quot;temp_min&amp;quot;:302.26,&amp;quot;temp_max&amp;quot;:302.26,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:70,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:75},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.99,&amp;quot;deg&amp;quot;:294,&amp;quot;gust&amp;quot;:2.98},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.9,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:2.35},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746111600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.98,&amp;quot;feels_like&amp;quot;:304.69,&amp;quot;temp_min&amp;quot;:300.98,&amp;quot;temp_max&amp;quot;:300.98,&amp;quot;pressure&amp;quot;:1011,&amp;quot;sea_level&amp;quot;:1011,&amp;quot;grnd_level&amp;quot;:1008,&amp;quot;humidity&amp;quot;:79,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:81},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.14,&amp;quot;deg&amp;quot;:294,&amp;quot;gust&amp;quot;:3.66},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:1.9},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746122400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:299.91,&amp;quot;feels_like&amp;quot;:302.53,&amp;quot;temp_min&amp;quot;:299.91,&amp;quot;temp_max&amp;quot;:299.91,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:82,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:65},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.01,&amp;quot;deg&amp;quot;:243,&amp;quot;gust&amp;quot;:1.04},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.41},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746133200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:299.51,&amp;quot;feels_like&amp;quot;:299.51,&amp;quot;temp_min&amp;quot;:299.51,&amp;quot;temp_max&amp;quot;:299.51,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:85,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:75},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.4,&amp;quot;deg&amp;quot;:154,&amp;quot;gust&amp;quot;:2.01},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.38,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.28},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-01 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746144000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:299.78,&amp;quot;feels_like&amp;quot;:299.78,&amp;quot;temp_min&amp;quot;:299.78,&amp;quot;temp_max&amp;quot;:299.78,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:80,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:85},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.4,&amp;quot;deg&amp;quot;:176,&amp;quot;gust&amp;quot;:1.56},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.29,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.22},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746154800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.22,&amp;quot;feels_like&amp;quot;:306.53,&amp;quot;temp_min&amp;quot;:303.22,&amp;quot;temp_max&amp;quot;:303.22,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:62,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.08,&amp;quot;deg&amp;quot;:222,&amp;quot;gust&amp;quot;:1.24},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.63,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.44},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746165600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.43,&amp;quot;feels_like&amp;quot;:309.14,&amp;quot;temp_min&amp;quot;:306.43,&amp;quot;temp_max&amp;quot;:306.43,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:47,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:71},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.89,&amp;quot;deg&amp;quot;:284,&amp;quot;gust&amp;quot;:2.18},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.37,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746176400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.2,&amp;quot;feels_like&amp;quot;:308.18,&amp;quot;temp_min&amp;quot;:306.2,&amp;quot;temp_max&amp;quot;:306.2,&amp;quot;pressure&amp;quot;:1006,&amp;quot;sea_level&amp;quot;:1006,&amp;quot;grnd_level&amp;quot;:1002,&amp;quot;humidity&amp;quot;:45,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:84},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.66,&amp;quot;deg&amp;quot;:346,&amp;quot;gust&amp;quot;:3.47},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.03,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746187200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.73,&amp;quot;feels_like&amp;quot;:306.9,&amp;quot;temp_min&amp;quot;:303.73,&amp;quot;temp_max&amp;quot;:303.73,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:59,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:92},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.92,&amp;quot;deg&amp;quot;:265,&amp;quot;gust&amp;quot;:2.22},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746198000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.01,&amp;quot;feels_like&amp;quot;:305.05,&amp;quot;temp_min&amp;quot;:302.01,&amp;quot;temp_max&amp;quot;:302.01,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:67,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.34,&amp;quot;deg&amp;quot;:138,&amp;quot;gust&amp;quot;:4.09},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746208800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.81,&amp;quot;feels_like&amp;quot;:303.65,&amp;quot;temp_min&amp;quot;:300.81,&amp;quot;temp_max&amp;quot;:300.81,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:74,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.15,&amp;quot;deg&amp;quot;:243,&amp;quot;gust&amp;quot;:2.71},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746219600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.14,&amp;quot;feels_like&amp;quot;:302.5,&amp;quot;temp_min&amp;quot;:300.14,&amp;quot;temp_max&amp;quot;:300.14,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:76,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.02,&amp;quot;deg&amp;quot;:246,&amp;quot;gust&amp;quot;:2.62},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-02 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746230400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.34,&amp;quot;feels_like&amp;quot;:302.61,&amp;quot;temp_min&amp;quot;:300.34,&amp;quot;temp_max&amp;quot;:300.34,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:73,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:93},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.21,&amp;quot;deg&amp;quot;:227,&amp;quot;gust&amp;quot;:3.23},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-03 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746241200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.15,&amp;quot;feels_like&amp;quot;:307.51,&amp;quot;temp_min&amp;quot;:304.15,&amp;quot;temp_max&amp;quot;:304.15,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:58,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.65,&amp;quot;deg&amp;quot;:242,&amp;quot;gust&amp;quot;:4.08},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-03 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746252000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.34,&amp;quot;feels_like&amp;quot;:309.82,&amp;quot;temp_min&amp;quot;:306.34,&amp;quot;temp_max&amp;quot;:306.34,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:50,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:97},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:6.39,&amp;quot;deg&amp;quot;:262,&amp;quot;gust&amp;quot;:6.47},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.42,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.24},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-03 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746262800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.84,&amp;quot;feels_like&amp;quot;:307.12,&amp;quot;temp_min&amp;quot;:303.84,&amp;quot;temp_max&amp;quot;:303.84,&amp;quot;pressure&amp;quot;:1006,&amp;quot;sea_level&amp;quot;:1006,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:59,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:7.96,&amp;quot;deg&amp;quot;:260,&amp;quot;gust&amp;quot;:9.23},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.84,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.24},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-03 09:00:00&amp;quot;}],&amp;quot;city&amp;quot;:{&amp;quot;id&amp;quot;:6754916,&amp;quot;name&amp;quot;:&amp;quot;Rawa Barat&amp;quot;,&amp;quot;coord&amp;quot;:{&amp;quot;lat&amp;quot;:-6.266,&amp;quot;lon&amp;quot;:106.8135},&amp;quot;country&amp;quot;:&amp;quot;ID&amp;quot;,&amp;quot;population&amp;quot;:0,&amp;quot;timezone&amp;quot;:25200,&amp;quot;sunrise&amp;quot;:1745794381,&amp;quot;sunset&amp;quot;:1745837235}}&amp;apos; and expected object &amp;apos;&amp;apos; are not equal</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyNotEqualKeyword.verifyNotEqual</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.367980300Z</date>
+  <millis>1745841546367</millis>
+  <nanos>980300</nanos>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;6&amp;apos; and expected object &amp;apos;6&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.385589800Z</date>
+  <millis>1745841546385</millis>
+  <nanos>589800</nanos>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual number &amp;apos;4&amp;apos; is greater than expected number &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyGreaterThanKeyword.verifyGreaterThan</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.389594500Z</date>
+  <millis>1745841546389</millis>
+  <nanos>594500</nanos>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual number &amp;apos;8&amp;apos; is greater than expected number &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyGreaterThanKeyword.verifyGreaterThan</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.393654900Z</date>
+  <millis>1745841546393</millis>
+  <nanos>654900</nanos>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual number &amp;apos;8&amp;apos; is greater than expected number &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyGreaterThanKeyword.verifyGreaterThan</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.397649Z</date>
+  <millis>1745841546397</millis>
+  <nanos>649000</nanos>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual number &amp;apos;8&amp;apos; is greater than expected number &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyGreaterThanKeyword.verifyGreaterThan</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.400653300Z</date>
+  <millis>1745841546400</millis>
+  <nanos>653300</nanos>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual number &amp;apos;8&amp;apos; is greater than expected number &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyGreaterThanKeyword.verifyGreaterThan</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.403810Z</date>
+  <millis>1745841546403</millis>
+  <nanos>810000</nanos>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual number &amp;apos;4&amp;apos; is greater than expected number &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyGreaterThanKeyword.verifyGreaterThan</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.510013Z</date>
+  <millis>1745841546510</millis>
+  <nanos>13000</nanos>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.512995100Z</date>
+  <millis>1745841546512</millis>
+  <nanos>995100</nanos>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.514133800Z</date>
+  <millis>1745841546514</millis>
+  <nanos>133800</nanos>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getFiveDayForecast(&amp;quot;abc&amp;quot;, lon_jaksel.toString(), apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">8</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.562867100Z</date>
+  <millis>1745841546562</millis>
+  <nanos>867100</nanos>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">8a3d2cb1-abd5-4b47-84b7-1a4633769710</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.567368800Z</date>
+  <millis>1745841546567</millis>
+  <nanos>368800</nanos>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.569882900Z</date>
+  <millis>1745841546569</millis>
+  <nanos>882900</nanos>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.605033800Z</date>
+  <millis>1745841546605</millis>
+  <nanos>33800</nanos>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.641263800Z</date>
+  <millis>1745841546641</millis>
+  <nanos>263800</nanos>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.643294500Z</date>
+  <millis>1745841546643</millis>
+  <nanos>294500</nanos>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getFiveDayForecast(&amp;quot;abc&amp;quot;, lon_jaksel.toString(), apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.644803100Z</date>
+  <millis>1745841546644</millis>
+  <nanos>803100</nanos>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), &amp;quot;xyz&amp;quot;, apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">11</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.692814500Z</date>
+  <millis>1745841546692</millis>
+  <nanos>814500</nanos>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">32b9c16e-4a65-4731-94d9-4b3d6ac3e3d2</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.695814400Z</date>
+  <millis>1745841546695</millis>
+  <nanos>814400</nanos>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.698815800Z</date>
+  <millis>1745841546698</millis>
+  <nanos>815800</nanos>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.736495900Z</date>
+  <millis>1745841546736</millis>
+  <nanos>495900</nanos>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.775772100Z</date>
+  <millis>1745841546775</millis>
+  <nanos>772100</nanos>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.777773400Z</date>
+  <millis>1745841546777</millis>
+  <nanos>773400</nanos>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), &amp;quot;xyz&amp;quot;, apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.778771500Z</date>
+  <millis>1745841546778</millis>
+  <nanos>771500</nanos>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), &amp;quot;bad_key&amp;quot;, 401)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.813681300Z</date>
+  <millis>1745841546813</millis>
+  <nanos>681300</nanos>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">bfa62a7d-2126-449c-8dd0-f7fc68167653</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.815675Z</date>
+  <millis>1745841546815</millis>
+  <nanos>675000</nanos>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.818776600Z</date>
+  <millis>1745841546818</millis>
+  <nanos>776600</nanos>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.874303400Z</date>
+  <millis>1745841546874</millis>
+  <nanos>303400</nanos>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.903655100Z</date>
+  <millis>1745841546903</millis>
+  <nanos>655100</nanos>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.904656100Z</date>
+  <millis>1745841546904</millis>
+  <nanos>656100</nanos>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), &amp;quot;bad_key&amp;quot;, 401)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.905659200Z</date>
+  <millis>1745841546905</millis>
+  <nanos>659200</nanos>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_5day_weather_jakarta</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.906657200Z</date>
+  <millis>1745841546906</millis>
+  <nanos>657200</nanos>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_5day_weather_jakarta</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.914722600Z</date>
+  <millis>1745841546914</millis>
+  <nanos>722600</nanos>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_GetCurrentAirPollution</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/TC_GetCurrentAirPollution</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TC_GetCurrentAirPollution</property>
+  <property name="source">C:\Users\LENOVO\git\weather-api-test-lanceSoft\Test Cases\TC_GetCurrentAirPollution.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.929138500Z</date>
+  <millis>1745841546929</millis>
+  <nanos>138500</nanos>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) apiKey = 68cf65b2e2fe6aed98fc6847a87ebb21</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.947259900Z</date>
+  <millis>1745841546947</millis>
+  <nanos>259900</nanos>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lat_jaksel = -62.266</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:06.948260100Z</date>
+  <millis>1745841546948</millis>
+  <nanos>260100</nanos>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) lon_jaksel = 106.8135</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.011521300Z</date>
+  <millis>1745841547011</millis>
+  <nanos>521300</nanos>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">5</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.233900300Z</date>
+  <millis>1745841547233</millis>
+  <nanos>900300</nanos>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">0ec55853-b706-4510-818b-f544c52b83a4</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.234898300Z</date>
+  <millis>1745841547234</millis>
+  <nanos>898300</nanos>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.237896800Z</date>
+  <millis>1745841547237</millis>
+  <nanos>896800</nanos>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.239908200Z</date>
+  <millis>1745841547239</millis>
+  <nanos>908200</nanos>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;{&amp;quot;coord&amp;quot;:{&amp;quot;lon&amp;quot;:106.8135,&amp;quot;lat&amp;quot;:-6.266},&amp;quot;list&amp;quot;:[{&amp;quot;main&amp;quot;:{&amp;quot;aqi&amp;quot;:1},&amp;quot;components&amp;quot;:{&amp;quot;co&amp;quot;:95.75,&amp;quot;no&amp;quot;:0,&amp;quot;no2&amp;quot;:0.58,&amp;quot;o3&amp;quot;:40.48,&amp;quot;so2&amp;quot;:0.27,&amp;quot;pm2_5&amp;quot;:3.43,&amp;quot;pm10&amp;quot;:9.04,&amp;quot;nh3&amp;quot;:0.37},&amp;quot;dt&amp;quot;:1745841547}]}&amp;apos; and expected object &amp;apos;&amp;apos; are not equal</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyNotEqualKeyword.verifyNotEqual</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.280425300Z</date>
+  <millis>1745841547280</millis>
+  <nanos>425300</nanos>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual number &amp;apos;1&amp;apos; is greater than expected number &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.VerifyGreaterThanKeyword.verifyGreaterThan</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.304424100Z</date>
+  <millis>1745841547304</millis>
+  <nanos>424100</nanos>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.306422700Z</date>
+  <millis>1745841547306</millis>
+  <nanos>422700</nanos>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.307423400Z</date>
+  <millis>1745841547307</millis>
+  <nanos>423400</nanos>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getCurrentAirPollution(&amp;quot;abc&amp;quot;, lon_jaksel.toString(), apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">8</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.356146800Z</date>
+  <millis>1745841547356</millis>
+  <nanos>146800</nanos>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">b7111687-b0ee-48d4-a32f-1aac06a93077</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.358150600Z</date>
+  <millis>1745841547358</millis>
+  <nanos>150600</nanos>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.360146100Z</date>
+  <millis>1745841547360</millis>
+  <nanos>146100</nanos>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.387145Z</date>
+  <millis>1745841547387</millis>
+  <nanos>145000</nanos>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.412810800Z</date>
+  <millis>1745841547412</millis>
+  <nanos>810800</nanos>
+  <sequence>97</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.414820900Z</date>
+  <millis>1745841547414</millis>
+  <nanos>820900</nanos>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getCurrentAirPollution(&amp;quot;abc&amp;quot;, lon_jaksel.toString(), apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.414820900Z</date>
+  <millis>1745841547414</millis>
+  <nanos>820900</nanos>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), &amp;quot;xyz&amp;quot;, apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">11</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.449813600Z</date>
+  <millis>1745841547449</millis>
+  <nanos>813600</nanos>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_6.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">a0937326-31fd-4fea-a76a-573d45911447</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.450813200Z</date>
+  <millis>1745841547450</millis>
+  <nanos>813200</nanos>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.452813200Z</date>
+  <millis>1745841547452</millis>
+  <nanos>813200</nanos>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.476216Z</date>
+  <millis>1745841547476</millis>
+  <nanos>216000</nanos>
+  <sequence>107</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.500255100Z</date>
+  <millis>1745841547500</millis>
+  <nanos>255100</nanos>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.501256700Z</date>
+  <millis>1745841547501</millis>
+  <nanos>256700</nanos>
+  <sequence>110</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), &amp;quot;xyz&amp;quot;, apiKey, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.501256700Z</date>
+  <millis>1745841547501</millis>
+  <nanos>256700</nanos>
+  <sequence>111</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), &amp;quot;bad_key&amp;quot;, 401)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.541261800Z</date>
+  <millis>1745841547541</millis>
+  <nanos>261800</nanos>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_7.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">5abe352e-caa5-4da8-a48a-c1d87fa08630</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.542271600Z</date>
+  <millis>1745841547542</millis>
+  <nanos>271600</nanos>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.544273300Z</date>
+  <millis>1745841547544</millis>
+  <nanos>273300</nanos>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.575029600Z</date>
+  <millis>1745841547575</millis>
+  <nanos>29600</nanos>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.595361900Z</date>
+  <millis>1745841547595</millis>
+  <nanos>361900</nanos>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.596361500Z</date>
+  <millis>1745841547596</millis>
+  <nanos>361500</nanos>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), &amp;quot;bad_key&amp;quot;, 401)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.596361500Z</date>
+  <millis>1745841547596</millis>
+  <nanos>361500</nanos>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_GetCurrentAirPollution</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.597362Z</date>
+  <millis>1745841547597</millis>
+  <nanos>362000</nanos>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_GetCurrentAirPollution</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;value&quot;: &quot;68cf65b2e2fe6aed98fc6847a87ebb21&quot;,
+    &quot;isDefault&quot;: true,
+    &quot;name&quot;: &quot;apiKey&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;value&quot;: &quot;-62.266&quot;,
+    &quot;isDefault&quot;: true,
+    &quot;name&quot;: &quot;lat_jaksel&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;value&quot;: &quot;106.8135&quot;,
+    &quot;isDefault&quot;: true,
+    &quot;name&quot;: &quot;lon_jaksel&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2025-04-28T11:59:07.644898500Z</date>
+  <millis>1745841547644</millis>
+  <nanos>898500</nanos>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/WeatherSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

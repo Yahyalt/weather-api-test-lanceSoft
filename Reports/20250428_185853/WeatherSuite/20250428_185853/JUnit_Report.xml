@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WeatherSuite" time="3.638" tests="2" failures="0" errors="0">
+   <testsuite name="WeatherSuite" tests="2" failures="0" errors="0" time="3.638" skipped="0" timestamp="28-04-2025T18:59:03" hostname="LENOVO - LAPTOP-6D1EASRA" id="Test Suites/WeatherSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\weather-api-test-lanceSoft\\Reports\\20250428_185853\\WeatherSuite\\20250428_185853"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\weather-api-test-lanceSoft\\Reports\\20250428_185853\\WeatherSuite\\20250428_185853\\console0.log, C:\\Users\\LENOVO\\git\\weather-api-test-lanceSoft\\Reports\\20250428_185853\\WeatherSuite\\20250428_185853\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Yahya Hafidz"/>
+         <property name="hostName" value="LENOVO - LAPTOP-6D1EASRA"/>
+         <property name="hostAddress" value="192.168.48.149"/>
+         <property name="projectName" value="weather-api-test-lanceSoft"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+      </properties>
+      <testcase name="Test Cases/TC_5day_weather_jakarta" time="2.26" classname="Test Cases/TC_5day_weather_jakarta" status="PASSED">
+         <system-out><![CDATA[28-04-2025T18:59:04 - [TEST_CASE][PASSED] - Test Cases/TC_5day_weather_jakarta: Test Cases/TC_5day_weather_jakarta
+
+28-04-2025T18:59:04 - [TEST_STEP][PASSED] - WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200): Verify element property value successfully
+
+28-04-2025T18:59:06 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_0.har
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual object '{"cod":"200","message":0,"cnt":40,"list":[{"dt":1745841600,"main":{"temp":301.86,"feels_like":303.99,"temp_min":301.86,"temp_max":304.55,"pressure":1008,"sea_level":1008,"grnd_level":1005,"humidity":62,"temp_kf":-2.69},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":40},"wind":{"speed":2.14,"deg":354,"gust":2.22},"visibility":10000,"pop":0.32,"rain":{"3h":0.3},"sys":{"pod":"n"},"dt_txt":"2025-04-28 12:00:00"},{"dt":1745852400,"main":{"temp":302.39,"feels_like":305.83,"temp_min":302.39,"temp_max":303.46,"pressure":1009,"sea_level":1009,"grnd_level":1006,"humidity":67,"temp_kf":-1.07},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":50},"wind":{"speed":1.32,"deg":287,"gust":1.84},"visibility":10000,"pop":1,"rain":{"3h":1.9},"sys":{"pod":"n"},"dt_txt":"2025-04-28 15:00:00"},{"dt":1745863200,"main":{"temp":302.83,"feels_like":308.35,"temp_min":302.83,"temp_max":303.31,"pressure":1009,"sea_level":1009,"grnd_level":1005,"humidity":74,"temp_kf":-0.48},"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10n"}],"clouds":{"all":41},"wind":{"speed":0.57,"deg":136,"gust":0.61},"visibility":10000,"pop":1,"rain":{"3h":5.92},"sys":{"pod":"n"},"dt_txt":"2025-04-28 18:00:00"},{"dt":1745874000,"main":{"temp":303.44,"feels_like":310.44,"temp_min":303.44,"temp_max":303.44,"pressure":1008,"sea_level":1008,"grnd_level":1004,"humidity":85,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":6},"wind":{"speed":1.34,"deg":104,"gust":1.64},"visibility":10000,"pop":0.53,"rain":{"3h":0.33},"sys":{"pod":"n"},"dt_txt":"2025-04-28 21:00:00"},{"dt":1745884800,"main":{"temp":301.42,"feels_like":306.46,"temp_min":301.42,"temp_max":301.42,"pressure":1010,"sea_level":1010,"grnd_level":1006,"humidity":83,"temp_kf":0},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"clouds":{"all":5},"wind":{"speed":1.5,"deg":102,"gust":1.85},"visibility":10000,"pop":0.27,"sys":{"pod":"d"},"dt_txt":"2025-04-29 00:00:00"},{"dt":1745895600,"main":{"temp":305.33,"feels_like":312.29,"temp_min":305.33,"temp_max":305.33,"pressure":1010,"sea_level":1010,"grnd_level":1007,"humidity":65,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":8},"wind":{"speed":1.78,"deg":53,"gust":1.81},"visibility":10000,"pop":0.21,"rain":{"3h":0.14},"sys":{"pod":"d"},"dt_txt":"2025-04-29 03:00:00"},{"dt":1745906400,"main":{"temp":306.46,"feels_like":313.46,"temp_min":306.46,"temp_max":306.46,"pressure":1008,"sea_level":1008,"grnd_level":1004,"humidity":62,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":27},"wind":{"speed":3.57,"deg":7,"gust":2.73},"visibility":10000,"pop":0.98,"rain":{"3h":1.41},"sys":{"pod":"d"},"dt_txt":"2025-04-29 06:00:00"},{"dt":1745917200,"main":{"temp":302.98,"feels_like":306.46,"temp_min":302.98,"temp_max":302.98,"pressure":1007,"sea_level":1007,"grnd_level":1003,"humidity":64,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":100},"wind":{"speed":3.23,"deg":8,"gust":2.55},"visibility":10000,"pop":0.9,"rain":{"3h":0.9},"sys":{"pod":"d"},"dt_txt":"2025-04-29 09:00:00"},{"dt":1745928000,"main":{"temp":301.36,"feels_like":303.95,"temp_min":301.36,"temp_max":301.36,"pressure":1009,"sea_level":1009,"grnd_level":1005,"humidity":68,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":100},"wind":{"speed":1.83,"deg":23,"gust":2.17},"visibility":10000,"pop":0.76,"rain":{"3h":0.49},"sys":{"pod":"n"},"dt_txt":"2025-04-29 12:00:00"},{"dt":1745938800,"main":{"temp":301.08,"feels_like":303.3,"temp_min":301.08,"temp_max":301.08,"pressure":1010,"sea_level":1010,"grnd_level":1007,"humidity":67,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":100},"wind":{"speed":1.23,"deg":72,"gust":1.47},"visibility":10000,"pop":0.28,"rain":{"3h":0.29},"sys":{"pod":"n"},"dt_txt":"2025-04-29 15:00:00"},{"dt":1745949600,"main":{"temp":300.05,"feels_like":301.92,"temp_min":300.05,"temp_max":300.05,"pressure":1009,"sea_level":1009,"grnd_level":1006,"humidity":71,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"clouds":{"all":100},"wind":{"speed":1.5,"deg":113,"gust":1.68},"visibility":10000,"pop":0.1,"sys":{"pod":"n"},"dt_txt":"2025-04-29 18:00:00"},{"dt":1745960400,"main":{"temp":299.38,"feels_like":299.38,"temp_min":299.38,"temp_max":299.38,"pressure":1009,"sea_level":1009,"grnd_level":1005,"humidity":75,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"clouds":{"all":100},"wind":{"speed":1.45,"deg":114,"gust":1.79},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2025-04-29 21:00:00"},{"dt":1745971200,"main":{"temp":299.47,"feels_like":299.47,"temp_min":299.47,"temp_max":299.47,"pressure":1010,"sea_level":1010,"grnd_level":1007,"humidity":75,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"clouds":{"all":100},"wind":{"speed":1.54,"deg":111,"gust":2.02},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-04-30 00:00:00"},{"dt":1745982000,"main":{"temp":303.18,"feels_like":305.65,"temp_min":303.18,"temp_max":303.18,"pressure":1010,"sea_level":1010,"grnd_level":1007,"humidity":58,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"clouds":{"all":99},"wind":{"speed":1.87,"deg":69,"gust":1.85},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-04-30 03:00:00"},{"dt":1745992800,"main":{"temp":305.24,"feels_like":308.44,"temp_min":305.24,"temp_max":305.24,"pressure":1008,"sea_level":1008,"grnd_level":1004,"humidity":53,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"clouds":{"all":87},"wind":{"speed":3.37,"deg":18,"gust":2.13},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-04-30 06:00:00"},{"dt":1746003600,"main":{"temp":303.03,"feels_like":306.35,"temp_min":303.03,"temp_max":303.03,"pressure":1007,"sea_level":1007,"grnd_level":1004,"humidity":63,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":95},"wind":{"speed":4.34,"deg":25,"gust":3.63},"visibility":10000,"pop":0.38,"rain":{"3h":0.12},"sys":{"pod":"d"},"dt_txt":"2025-04-30 09:00:00"},{"dt":1746014400,"main":{"temp":301.81,"feels_like":305.15,"temp_min":301.81,"temp_max":301.81,"pressure":1009,"sea_level":1009,"grnd_level":1006,"humidity":70,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":97},"wind":{"speed":2.77,"deg":32,"gust":2.82},"visibility":10000,"pop":0.62,"rain":{"3h":1.6},"sys":{"pod":"n"},"dt_txt":"2025-04-30 12:00:00"},{"dt":1746025200,"main":{"temp":301.16,"feels_like":304.11,"temp_min":301.16,"temp_max":301.16,"pressure":1011,"sea_level":1011,"grnd_level":1008,"humidity":72,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":100},"wind":{"speed":2.09,"deg":92,"gust":2.56},"visibility":10000,"pop":1,"rain":{"3h":1.45},"sys":{"pod":"n"},"dt_txt":"2025-04-30 15:00:00"},{"dt":1746036000,"main":{"temp":300.13,"feels_like":302.48,"temp_min":300.13,"temp_max":300.13,"pressure":1011,"sea_level":1011,"grnd_level":1007,"humidity":76,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":100},"wind":{"speed":1.85,"deg":109,"gust":2.46},"visibility":10000,"pop":1,"rain":{"3h":0.28},"sys":{"pod":"n"},"dt_txt":"2025-04-30 18:00:00"},{"dt":1746046800,"main":{"temp":299.59,"feels_like":299.59,"temp_min":299.59,"temp_max":299.59,"pressure":1010,"sea_level":1010,"grnd_level":1006,"humidity":78,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"clouds":{"all":100},"wind":{"speed":1.55,"deg":114,"gust":2.11},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2025-04-30 21:00:00"},{"dt":1746057600,"main":{"temp":299.7,"feels_like":299.7,"temp_min":299.7,"temp_max":299.7,"pressure":1011,"sea_level":1011,"grnd_level":1008,"humidity":76,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"clouds":{"all":100},"wind":{"speed":1.33,"deg":126,"gust":1.65},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-05-01 00:00:00"},{"dt":1746068400,"main":{"temp":303.79,"feels_like":307.02,"temp_min":303.79,"temp_max":303.79,"pressure":1011,"sea_level":1011,"grnd_level":1008,"humidity":59,"temp_kf":0},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"clouds":{"all":62},"wind":{"speed":0.99,"deg":79,"gust":0.73},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-05-01 03:00:00"},{"dt":1746079200,"main":{"temp":306.23,"feels_like":309.6,"temp_min":306.23,"temp_max":306.23,"pressure":1008,"sea_level":1008,"grnd_level":1005,"humidity":50,"temp_kf":0},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"clouds":{"all":41},"wind":{"speed":2.22,"deg":348,"gust":2.21},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-05-01 06:00:00"},{"dt":1746090000,"main":{"temp":304.22,"feels_like":307.65,"temp_min":304.22,"temp_max":304.22,"pressure":1007,"sea_level":1007,"grnd_level":1004,"humidity":58,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":77},"wind":{"speed":4.68,"deg":3,"gust":3.74},"visibility":10000,"pop":0.42,"rain":{"3h":0.27},"sys":{"pod":"d"},"dt_txt":"2025-05-01 09:00:00"},{"dt":1746100800,"main":{"temp":302.26,"feels_like":306.12,"temp_min":302.26,"temp_max":302.26,"pressure":1010,"sea_level":1010,"grnd_level":1006,"humidity":70,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":75},"wind":{"speed":1.99,"deg":294,"gust":2.98},"visibility":10000,"pop":0.9,"rain":{"3h":2.35},"sys":{"pod":"n"},"dt_txt":"2025-05-01 12:00:00"},{"dt":1746111600,"main":{"temp":300.98,"feels_like":304.69,"temp_min":300.98,"temp_max":300.98,"pressure":1011,"sea_level":1011,"grnd_level":1008,"humidity":79,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":81},"wind":{"speed":2.14,"deg":294,"gust":3.66},"visibility":10000,"pop":1,"rain":{"3h":1.9},"sys":{"pod":"n"},"dt_txt":"2025-05-01 15:00:00"},{"dt":1746122400,"main":{"temp":299.91,"feels_like":302.53,"temp_min":299.91,"temp_max":299.91,"pressure":1010,"sea_level":1010,"grnd_level":1006,"humidity":82,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":65},"wind":{"speed":1.01,"deg":243,"gust":1.04},"visibility":10000,"pop":1,"rain":{"3h":0.41},"sys":{"pod":"n"},"dt_txt":"2025-05-01 18:00:00"},{"dt":1746133200,"main":{"temp":299.51,"feels_like":299.51,"temp_min":299.51,"temp_max":299.51,"pressure":1009,"sea_level":1009,"grnd_level":1006,"humidity":85,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],"clouds":{"all":75},"wind":{"speed":1.4,"deg":154,"gust":2.01},"visibility":10000,"pop":0.38,"rain":{"3h":0.28},"sys":{"pod":"n"},"dt_txt":"2025-05-01 21:00:00"},{"dt":1746144000,"main":{"temp":299.78,"feels_like":299.78,"temp_min":299.78,"temp_max":299.78,"pressure":1010,"sea_level":1010,"grnd_level":1007,"humidity":80,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":85},"wind":{"speed":1.4,"deg":176,"gust":1.56},"visibility":10000,"pop":0.29,"rain":{"3h":0.22},"sys":{"pod":"d"},"dt_txt":"2025-05-02 00:00:00"},{"dt":1746154800,"main":{"temp":303.22,"feels_like":306.53,"temp_min":303.22,"temp_max":303.22,"pressure":1010,"sea_level":1010,"grnd_level":1007,"humidity":62,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":100},"wind":{"speed":1.08,"deg":222,"gust":1.24},"visibility":10000,"pop":0.63,"rain":{"3h":0.44},"sys":{"pod":"d"},"dt_txt":"2025-05-02 03:00:00"},{"dt":1746165600,"main":{"temp":306.43,"feels_like":309.14,"temp_min":306.43,"temp_max":306.43,"pressure":1007,"sea_level":1007,"grnd_level":1004,"humidity":47,"temp_kf":0},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"clouds":{"all":71},"wind":{"speed":1.89,"deg":284,"gust":2.18},"visibility":10000,"pop":0.37,"sys":{"pod":"d"},"dt_txt":"2025-05-02 06:00:00"},{"dt":1746176400,"main":{"temp":306.2,"feels_like":308.18,"temp_min":306.2,"temp_max":306.2,"pressure":1006,"sea_level":1006,"grnd_level":1002,"humidity":45,"temp_kf":0},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"clouds":{"all":84},"wind":{"speed":3.66,"deg":346,"gust":3.47},"visibility":10000,"pop":0.03,"sys":{"pod":"d"},"dt_txt":"2025-05-02 09:00:00"},{"dt":1746187200,"main":{"temp":303.73,"feels_like":306.9,"temp_min":303.73,"temp_max":303.73,"pressure":1007,"sea_level":1007,"grnd_level":1004,"humidity":59,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"clouds":{"all":92},"wind":{"speed":0.92,"deg":265,"gust":2.22},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2025-05-02 12:00:00"},{"dt":1746198000,"main":{"temp":302.01,"feels_like":305.05,"temp_min":302.01,"temp_max":302.01,"pressure":1009,"sea_level":1009,"grnd_level":1006,"humidity":67,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"clouds":{"all":100},"wind":{"speed":3.34,"deg":138,"gust":4.09},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2025-05-02 15:00:00"},{"dt":1746208800,"main":{"temp":300.81,"feels_like":303.65,"temp_min":300.81,"temp_max":300.81,"pressure":1008,"sea_level":1008,"grnd_level":1005,"humidity":74,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"clouds":{"all":100},"wind":{"speed":2.15,"deg":243,"gust":2.71},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2025-05-02 18:00:00"},{"dt":1746219600,"main":{"temp":300.14,"feels_like":302.5,"temp_min":300.14,"temp_max":300.14,"pressure":1008,"sea_level":1008,"grnd_level":1004,"humidity":76,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"clouds":{"all":100},"wind":{"speed":2.02,"deg":246,"gust":2.62},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2025-05-02 21:00:00"},{"dt":1746230400,"main":{"temp":300.34,"feels_like":302.61,"temp_min":300.34,"temp_max":300.34,"pressure":1009,"sea_level":1009,"grnd_level":1006,"humidity":73,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"clouds":{"all":93},"wind":{"speed":2.21,"deg":227,"gust":3.23},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-05-03 00:00:00"},{"dt":1746241200,"main":{"temp":304.15,"feels_like":307.51,"temp_min":304.15,"temp_max":304.15,"pressure":1010,"sea_level":1010,"grnd_level":1006,"humidity":58,"temp_kf":0},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"clouds":{"all":100},"wind":{"speed":3.65,"deg":242,"gust":4.08},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2025-05-03 03:00:00"},{"dt":1746252000,"main":{"temp":306.34,"feels_like":309.82,"temp_min":306.34,"temp_max":306.34,"pressure":1007,"sea_level":1007,"grnd_level":1004,"humidity":50,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":97},"wind":{"speed":6.39,"deg":262,"gust":6.47},"visibility":10000,"pop":0.42,"rain":{"3h":0.24},"sys":{"pod":"d"},"dt_txt":"2025-05-03 06:00:00"},{"dt":1746262800,"main":{"temp":303.84,"feels_like":307.12,"temp_min":303.84,"temp_max":303.84,"pressure":1006,"sea_level":1006,"grnd_level":1003,"humidity":59,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":100},"wind":{"speed":7.96,"deg":260,"gust":9.23},"visibility":10000,"pop":0.84,"rain":{"3h":0.24},"sys":{"pod":"d"},"dt_txt":"2025-05-03 09:00:00"}],"city":{"id":6754916,"name":"Rawa Barat","coord":{"lat":-6.266,"lon":106.8135},"country":"ID","population":0,"timezone":25200,"sunrise":1745794381,"sunset":1745837235}}' and expected object '' are not equal
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual number '4' is greater than expected number '0'
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual number '8' is greater than expected number '0'
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual number '8' is greater than expected number '0'
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual number '8' is greater than expected number '0'
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual number '8' is greater than expected number '0'
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Actual number '4' is greater than expected number '0'
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:06 - [TEST_STEP][PASSED] - WeatherKeywords.getFiveDayForecast("abc", lon_jaksel.toString(), apiKey, 400): Verify element property value successfully
+
+28-04-2025T18:59:06 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_1.har
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:06 - [TEST_STEP][PASSED] - WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), "xyz", apiKey, 400): Verify element property value successfully
+
+28-04-2025T18:59:06 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_2.har
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:06 - [TEST_STEP][PASSED] - WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), "bad_key", 401): Verify element property value successfully
+
+28-04-2025T18:59:06 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_3.har
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_GetCurrentAirPollution" time="0.683" classname="Test Cases/TC_GetCurrentAirPollution" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) apiKe...":"68cf65b2e2fe6aed98fc6847a87ebb21","(Default) lon_j...":"106.8135","(Default) lat_j...":"-62.266"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-04-2025T18:59:06 - [TEST_CASE][PASSED] - Test Cases/TC_GetCurrentAirPollution: Test Cases/TC_GetCurrentAirPollution
+
+28-04-2025T18:59:07 - [TEST_STEP][PASSED] - WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200): Verify element property value successfully
+
+28-04-2025T18:59:07 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_4.har
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Actual object '{"coord":{"lon":106.8135,"lat":-6.266},"list":[{"main":{"aqi":1},"components":{"co":95.75,"no":0,"no2":0.58,"o3":40.48,"so2":0.27,"pm2_5":3.43,"pm10":9.04,"nh3":0.37},"dt":1745841547}]}' and expected object '' are not equal
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Actual number '1' is greater than expected number '0'
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:07 - [TEST_STEP][PASSED] - WeatherKeywords.getCurrentAirPollution("abc", lon_jaksel.toString(), apiKey, 400): Verify element property value successfully
+
+28-04-2025T18:59:07 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_5.har
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:07 - [TEST_STEP][PASSED] - WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), "xyz", apiKey, 400): Verify element property value successfully
+
+28-04-2025T18:59:07 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_6.har
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:07 - [TEST_STEP][PASSED] - WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), "bad_key", 401): Verify element property value successfully
+
+28-04-2025T18:59:07 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_7.har
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Send request successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+28-04-2025T18:59:07 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-04-2025T18:59:03 - [TEST_SUITE][PASSED] - WeatherSuite: Test Cases/TC_GetCurrentAirPollution]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

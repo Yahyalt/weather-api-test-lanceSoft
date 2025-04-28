@@ -1,0 +1,35 @@
+2025-04-28 18:59:03.878 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/WeatherSuite
+2025-04-28 18:59:04.006 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Yahya Hafidz
+2025-04-28 18:59:04.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = weather-api-test-lanceSoft
+2025-04-28 18:59:04.008 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = LENOVO - LAPTOP-6D1EASRA
+2025-04-28 18:59:04.009 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-04-28 18:59:04.010 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.48.149
+2025-04-28 18:59:04.011 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-04-28 18:59:04.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-04-28 18:59:04.646 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_5day_weather_jakarta
+2025-04-28 18:59:04.985 DEBUG testcase.TC_5day_weather_jakarta         - 1: WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)
+2025-04-28 18:59:06.176 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_0.har
+2025-04-28 18:59:06.512 DEBUG testcase.TC_5day_weather_jakarta         - 2: WeatherKeywords.getFiveDayForecast("abc", lon_jaksel.toString(), apiKey, 400)
+2025-04-28 18:59:06.561 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_1.har
+2025-04-28 18:59:06.643 DEBUG testcase.TC_5day_weather_jakarta         - 3: WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), "xyz", apiKey, 400)
+2025-04-28 18:59:06.692 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_2.har
+2025-04-28 18:59:06.777 DEBUG testcase.TC_5day_weather_jakarta         - 4: WeatherKeywords.getFiveDayForecast(lat_jaksel.toString(), lon_jaksel.toString(), "bad_key", 401)
+2025-04-28 18:59:06.812 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\5_day_wea...jakarta_3.har
+2025-04-28 18:59:06.906 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_5day_weather_jakarta
+2025-04-28 18:59:06.913 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-04-28 18:59:06.914 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_GetCurrentAirPollution
+2025-04-28 18:59:06.928 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) apiKey = 68cf65b2e2fe6aed98fc6847a87ebb21
+2025-04-28 18:59:06.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) lat_jaksel = -62.266
+2025-04-28 18:59:06.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) lon_jaksel = 106.8135
+2025-04-28 18:59:07.011 DEBUG testcase.TC_GetCurrentAirPollution       - 1: WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), apiKey, 200)
+2025-04-28 18:59:07.233 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_4.har
+2025-04-28 18:59:07.305 DEBUG testcase.TC_GetCurrentAirPollution       - 2: WeatherKeywords.getCurrentAirPollution("abc", lon_jaksel.toString(), apiKey, 400)
+2025-04-28 18:59:07.356 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_5.har
+2025-04-28 18:59:07.414 DEBUG testcase.TC_GetCurrentAirPollution       - 3: WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), "xyz", apiKey, 400)
+2025-04-28 18:59:07.449 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_6.har
+2025-04-28 18:59:07.501 DEBUG testcase.TC_GetCurrentAirPollution       - 4: WeatherKeywords.getCurrentAirPollution(lat_jaksel.toString(), lon_jaksel.toString(), "bad_key", 401)
+2025-04-28 18:59:07.541 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\LENOVO\git\weather-api-test-lanceSoft\Reports\20250428_185853\WeatherSuite\20250428_185853\requests\main\current_a...jakarta_7.har
+2025-04-28 18:59:07.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_GetCurrentAirPollution
+2025-04-28 18:59:07.644 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-04-28 18:59:07.644 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/WeatherSuite
+2025-04-28 18:59:07.644 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
