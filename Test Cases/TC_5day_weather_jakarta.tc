@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_5day_weather_jakarta</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99454f28-1cb2-46f1-aad3-f7e25a24f477</testCaseGuid>
+</TestCaseEntity>
