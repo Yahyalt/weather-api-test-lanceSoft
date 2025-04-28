@@ -36,26 +36,25 @@ class WeatherKeywords {
 			WS.verifyGreaterThan(count, 0)
 			WS.verifyElementPropertyValue(resp, 'list[0].main.aqi', 1)
 		} else if (expectedStatus == 400) {
-    // always assert the code
-    WS.verifyElementPropertyValue(resp, 'cod', '400')
+			// always assert the code
+			WS.verifyElementPropertyValue(resp, 'cod', '400')
 
-    // now decide which message to expect
-    boolean latIsNum = (lat ==~ /^-?\d+(\.\d+)?$/)
-    boolean lonIsNum = (lon ==~ /^-?\d+(\.\d+)?$/)
+			// now decide which message to expect
+			boolean latIsNum = (lat ==~ /^-?\d+(\.\d+)?$/)
+			boolean lonIsNum = (lon ==~ /^-?\d+(\.\d+)?$/)
 
-    if (!latIsNum) {
-        // any non-numeric latitude (including empty) → wrong latitude
-        WS.verifyElementPropertyValue(resp, 'message', 'wrong latitude')
-    }
-    else if (!lonIsNum) {
-        // any non-numeric longitude (including empty) → wrong longitude
-        WS.verifyElementPropertyValue(resp, 'message', 'wrong longitude')
-    }
-    else {
-        // both numeric but still a 400 from the service
-        WS.verifyElementPropertyValue(resp, 'message', 'Nothing to geocode')
-    }
-
+			if (!latIsNum) {
+				// any non-numeric latitude (including empty) → wrong latitude
+				WS.verifyElementPropertyValue(resp, 'message', 'wrong latitude')
+			}
+			else if (!lonIsNum) {
+				// any non-numeric longitude (including empty) → wrong longitude
+				WS.verifyElementPropertyValue(resp, 'message', 'wrong longitude')
+			}
+			else {
+				// both numeric but still a 400 from the service
+				WS.verifyElementPropertyValue(resp, 'message', 'Nothing to geocode')
+			}
 		} else if (expectedStatus == 401) {
 			// 401 Unauthorized
 			WS.verifyElementPropertyValue(resp, 'cod', 401)
