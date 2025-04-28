@@ -26,8 +26,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://api.openweathermap.org/data/2.5/air_pollution?lat=${GlobalVariable.lat_jaksel}&amp;lon=${GlobalVariable.lon_jaksel}&amp;appid=${GlobalVariable.apiKey}&#xd;
-</restUrl>
+   <restUrl>http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat_jaksel}&amp;lon=${lon_jaksel}&amp;appid=${apiKey}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
