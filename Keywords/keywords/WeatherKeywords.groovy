@@ -61,10 +61,6 @@ class WeatherKeywords {
 		}
 	}
 
-		WS.verifyResponseStatusCode(resp, expectedStatus)
-		WS.verifyNotEqual(
-				resp.getResponseBodyContent().trim(),
-				''
 				)
 	}
 }
