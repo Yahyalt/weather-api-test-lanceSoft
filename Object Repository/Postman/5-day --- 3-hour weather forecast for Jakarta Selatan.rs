@@ -26,7 +26,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://api.openweathermap.org/data/2.5/forecast?lat=${lat_jaksel}&amp;lon=${lon_jaksel}&amp;appid=${apiKey}</restUrl>
+   <restUrl>http://api.openweathermap.org/data/2.5/forecast</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
