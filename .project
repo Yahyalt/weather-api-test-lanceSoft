@@ -27,24 +27,24 @@
 			<location>C:/Users/LENOVO/AppData/Local/Temp/Katalon/Web Services/kat-1173590708351330508.groovy</location>
 		</link>
 		<link>
+			<name>kat-14317879500441885771.groovy</name>
+			<type>1</type>
+			<location>C:/Users/LENOVO/AppData/Local/Temp/Katalon/Web Services/kat-14317879500441885771.groovy</location>
+		</link>
+		<link>
 			<name>kat-3242592804776505349.groovy</name>
 			<type>1</type>
 			<location>C:/Users/LENOVO/AppData/Local/Temp/Katalon/Web Services/kat-3242592804776505349.groovy</location>
 		</link>
 		<link>
-			<name>kat-59749709462436331.groovy</name>
+			<name>kat-413543391329901660.groovy</name>
 			<type>1</type>
-			<location>C:/Users/LENOVO/AppData/Local/Temp/Katalon/Web Services/kat-59749709462436331.groovy</location>
+			<location>C:/Users/LENOVO/AppData/Local/Temp/Katalon/Web Services/kat-413543391329901660.groovy</location>
 		</link>
 		<link>
 			<name>kat-607168894298227010.groovy</name>
 			<type>1</type>
 			<location>C:/Users/LENOVO/AppData/Local/Temp/Katalon/Web Services/kat-607168894298227010.groovy</location>
-		</link>
-		<link>
-			<name>kat-8068475810802856277.groovy</name>
-			<type>1</type>
-			<location>C:/Users/LENOVO/AppData/Local/Temp/Katalon/Web Services/kat-8068475810802856277.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -239,6 +239,24 @@
 		</filter>
 		<filter>
 			<id>1745801990017</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1745841291824</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1745841291834</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
